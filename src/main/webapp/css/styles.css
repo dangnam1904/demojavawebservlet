@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+body {
+	max-width: 1200px;
+	height: 600px;
+	max-height: 1200px;
+	margin: auto;
+	background-color: #c1d2d3;
+	border: 1px solid #c1d2d3;
+}
+
+div#img {
+	width: 100%;
+	height: 200px;
+	border: 1px solid green;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+	object-fit: unset;
+	image-rendering: pixelated;
+}
+
+div.content {
+	background-color: white;
+	margin: 0px;
+}
+
+h1#title {
+	margin-top: 3px;
+	border: 1px solid black;
+	padding: 10px;
+	color: blue;
+}
+
+form#register {
+	border: 1px solid black;
+}
+
+#formValidateRegister{
+	
+	border: 1px solid green;
+	margin-left: 100px;	
+	margin-right:100sspx;	
+}
+label {
+	margin-right: 150px;
+}
+
+div.group-form {
+	display: inherit;
+	width: 500px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div#group-form-seach {
+	display: inherit;
+	width: 900px;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+div.group_radio_checkbox {
+	width: 280px;
+	margin-left: 200px;
+}
+
+#submit-from-resgiter {
+	margin: 0px 350px;
+}
+/*
+table   {
+   border-collapse: collapse;
+   border: 1px solid black;
+} 
+table  th {
+   border: 1px solid black;
+   padding: 5px;
+}
+table  td {
+   border: 1px solid black;
+   padding: 5px;
+}
+
+*/
+.table {
+	max-width: 100%;
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+	font-family: 'Droid Serif', serif;
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.table th, .table td {
+	padding: 15px;
+	line-height: 20px;
+	text-align: left;
+	vertical-align: top;
+}
+
+.table-zebra tbody>tr:nth-child(odd)>td, .table-zebra tbody>tr:nth-child(odd)>th
+	{
+	background-color: #f4f4f4;
+}
+
+span {
+	margin-left: 10px;
+	margin-right: 10px;
+	color: black;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: normal;
+}
+
+label.error {
+	display: inline-block;
+	color: red;
+	width: 200px;
+}
+
+div.group-button {
+	margin-left: 350px;
+}
+
+div.group-button input {
+	padding: 5px;
+	width: 100px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+p.msg {
+	margin: 5px 10px 5px 220px;
+	color: red;
+	font-size: 12px;
+}
+div.help{
+	margin: 12px;
+    margin-left: 500px;
+}
+a#displayPersonal{
+	padding: 5px;
+	border: 1px solid black; 
+	border-radius:5px;
+	background-color: #8aebce;
+	text-decoration: none;
+}
+button#helpReg{
+	margin: 10px;
+	padding: 5px;
+	background-color: #8aebce;
+	border-radius:5px;
+}
